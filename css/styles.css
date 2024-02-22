@@ -26,8 +26,7 @@ a>svg {margin: 0 .5rem 0 0}
     top: 0;
     left: 0;
     width: 100vw !important;
-    background-color: #363636;
-    background-image: linear-gradient(#363636, #404040);
+    background-color: #c50;
 }
 
 .grid-container {
