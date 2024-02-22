@@ -84,7 +84,16 @@ a>svg {margin: 0 .5rem 0 0}
     height: 100%;
     padding: .5rem .75rem;
     line-height: 1.3;
+    background: black;
+    transition: background .2s;
 }
+
+.nav-item:hover .nav-sub {
+    visibility: visible;
+    opacity: 1;
+}
+
+.nav-sub a:hover {background: #444}
 
 /*----------------------MEDIA QUERIES----------------------*/
 
