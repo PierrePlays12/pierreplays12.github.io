@@ -18,6 +18,8 @@ a {
     transition: color .2s, background-color .2s;
 }
 
+a>svg {margin: 0 .5rem 0 0}
+
 /*-------------------------CLASSES-------------------------*/
 
 .nav-menu {
