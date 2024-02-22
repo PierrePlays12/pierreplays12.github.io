@@ -21,6 +21,30 @@ a {
 
 a>svg {margin: 0 .5rem 0 0}
 
+main {
+    margin: 1.25rem auto 2rem;
+    padding: 0.75rem 1rem;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4 {
+    color: #000;
+    font-weight: bold;
+    line-height: 1.2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4, p, dl, pre {
+    margin: 0 0 1rem;
+    padding: 0;
+}
+
+h1, .text-tera {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
 /*-------------------------CLASSES-------------------------*/
 
 .nav-menu {
@@ -103,6 +127,31 @@ a>svg {margin: 0 .5rem 0 0}
     text-decoration: none;
 }
 
+.panel-intro {background-color: #f0f0f0}
+
+.panel {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    color: #404040;
+}
+
+.panel>:last-child {margin-bottom: 0}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 -1rem;
+}
+
+.grid-col {
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    width: 100%;
+}
+
 /*----------------------MEDIA QUERIES----------------------*/
 
 @media (min-width: 900px) {
@@ -114,6 +163,12 @@ a>svg {margin: 0 .5rem 0 0}
         font-size: .875rem;
         font-weight: bold;
     }
+
+    main {min-height: 600px}
+
+    .span-md-8 {width: 66.666%}
+
+    .span-md-4 {width: 33.334%}
 }
 
 @media (min-width: 760px) {
@@ -122,4 +177,9 @@ a>svg {margin: 0 .5rem 0 0}
 
 @media (min-width: 620px) {
     .nav-heading {padding-bottom: .25rem}
+
+    main {
+        margin-top: 2rem;
+        padding: 1.5rem 2rem;
+    }
 }
