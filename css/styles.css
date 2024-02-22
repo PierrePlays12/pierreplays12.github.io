@@ -25,7 +25,7 @@ a>svg {margin: 0 .5rem 0 0}
 .nav-menu {
     top: 0;
     left: 0;
-    width: 100vw !important;
+    width: 100% !important;
     background-color: #d60;
 }
 
