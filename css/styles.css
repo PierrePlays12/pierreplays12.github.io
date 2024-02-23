@@ -157,6 +157,8 @@ small, .small-text {
     width: 100%;
 }
 
+.small-title {margin-bottom: 0}
+
 /*----------------------MEDIA QUERIES----------------------*/
 
 @media (min-width: 900px) {
