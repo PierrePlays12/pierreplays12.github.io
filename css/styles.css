@@ -45,6 +45,10 @@ h1, .text-tera {
     text-align: center;
 }
 
+h2, .text-giga {font-size: 2rem}
+
+h3, .text-mega {font-size: 1.5rem}
+
 small, .small-text {
     color: #838383;
     font-size: .875rem
